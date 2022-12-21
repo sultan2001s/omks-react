@@ -1,0 +1,193 @@
+.tours{
+    padding: 87px 0 196px;
+    background: url(../images/tours.png) center/cover ;
+    
+}
+
+.kyrgyzstan{
+    width: 100%;
+}
+
+.tours__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tours__top{
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+}
+
+.tours__title{
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF; 
+}
+
+.img{
+    height: 100%;
+}
+
+.tours__text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.43);
+    margin-top: 28px;
+}
+
+.tours__all{
+    display: flex;
+    column-gap: 42px;
+}
+
+.tours__link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tours__info{
+    margin: 48px 0 150px;
+    display: flex;
+    column-gap: 12px;
+}
+
+.tours__span{
+    margin: 10px 28px 5px 20px;
+}
+
+.tours__canyon{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    background: rgba(58, 68, 45, 0.5);
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    line-height: 24px;
+}
+
+.tours__canyon::before{
+    position: absolute;
+    top: 100px;
+    bottom: 20px;
+}
+
+.tours__card{
+    display: flex;
+    column-gap: 90px;
+    align-items: flex-end;
+}
+
+.tours__card-title{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 56px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tours__span{
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.water__title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 36px;
+}
+
+.tours__card-text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 36px;
+}
+
+span{
+    color: #fff;
+}
+
+.tours__cart{
+    position: relative;
+    width: 50%;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.tours__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(58, 68, 45, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+  .tours__cart:hover .tours__overlay {
+    height: 100%;
+  }
+
+  .tours__canyon {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .tours__tur{
+      cursor: pointer;
+  }
+
+
+ @media (max-width: 1089px) {
+    .tours__card{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+
+ @media (max-width: 990px) {
+    .tours__info{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+ }
+
+ @media (max-width: 660px) {
+    .tours__title {
+        font-size: 44px;
+    }
+    .tours__content{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+ 
